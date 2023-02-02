@@ -1,5 +1,5 @@
 {% set name = "pigeonxt-jupyter" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 83771fafdb168bf6cb282a01cf76052966d38267962573ed176877eae83f1bda
+  sha256: 012e832463bb9888f609159b51294d3aeeb94ce0d680d482c9fa3734c040f81c
 
 build:
   noarch: python
